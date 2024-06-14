@@ -1,25 +1,25 @@
-table {
+.table {
   width: 500px;
   margin: 20px auto;
   text-align: center;
   border-spacing: 0px;
   border-collapse: collapse;
 }
-thead {
+.table thead {
   background-color: #252424;
 }
-th,
-td {
+.table th,
+.table td {
   border: 2px solid black;
   padding: 5px;
 }
-th {
+.table th {
   color: white;
   font-weight: 700;
 }
-tr:nth-child(2n) {
+.table tr:nth-child(2n) {
   background-color: gray;
 }
-td:first-child {
+.table td:first-child {
   text-transform: capitalize;
 }
