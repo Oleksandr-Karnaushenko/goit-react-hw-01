@@ -1,0 +1,13 @@
+.container {
+  text-align: center;
+}
+.name {
+  font-size: 18px;
+  font-weight: bold;
+}
+.red {
+  color: red;
+}
+.green {
+  color: green;
+}

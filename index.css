@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+}
+img {
+  margin: 0 auto;
+  display: block;
+  max-width: 100%;
+}
+p {
+  padding: 5px;
+}
+span {
+  display: block;
+}

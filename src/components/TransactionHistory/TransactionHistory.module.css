@@ -1,0 +1,25 @@
+table {
+  width: 500px;
+  margin: 20px auto;
+  text-align: center;
+  border-spacing: 0px;
+  border-collapse: collapse;
+}
+thead {
+  background-color: #252424;
+}
+th,
+td {
+  border: 2px solid black;
+  padding: 5px;
+}
+th {
+  color: white;
+  font-weight: 700;
+}
+tr:nth-child(2n) {
+  background-color: gray;
+}
+td:first-child {
+  text-transform: capitalize;
+}
